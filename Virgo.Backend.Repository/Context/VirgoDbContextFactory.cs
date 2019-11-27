@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace Virgo.Backend.Common.Repository.Context
+namespace Virgo.Backend.Repository.Context
 {
     public class VirgoDbContextFactory : IDesignTimeDbContextFactory<VirgoDbContext>
     {

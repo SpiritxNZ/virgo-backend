@@ -18,9 +18,4 @@
     <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.18" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Core\Errors\" />
-    <Folder Include="Helper\" />
-  </ItemGroup>
-
 </Project>

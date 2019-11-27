@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Virgo.Backend.Common.Repository.Context;
+using Virgo.Backend.Repository.Context;
 
 namespace Virgo.Backend.Controller
 {

@@ -1,4 +1,4 @@
-﻿# Virgo.Backend.Common
+﻿# Virgo.Backend.Repository
 This project contains the database models and commonly used logic.
 
 #### Run database locally

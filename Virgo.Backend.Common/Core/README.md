@@ -1,1 +1,0 @@
-﻿# Virgo.Backend.Common.Core

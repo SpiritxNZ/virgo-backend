@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Virgo.Backend.Common.Repository.Model.MySql;
+using Virgo.Backend.Repository.Model.MySql;
 
-namespace Virgo.Backend.Common.Repository.Context
+namespace Virgo.Backend.Repository.Context
 {
     public class VirgoDbContext : DbContext
     {
