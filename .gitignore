@@ -45,3 +45,5 @@ Virgo.API.Repository/obj/
 Virgo.API.Services.Tests/obj/
 
 Virgo.API.Services/obj/
+
+Virgo.Backend.UpdateDatabase/*
