@@ -6,5 +6,4 @@ steps:
     args: ["clone", "https://github.com/SpiritxNZ/virgo-backend.git"]
     dir: "app"
   - name: "ubuntu"
-    entrypoint: "bash"
-    args: ["-c ", "echo 'WOW'"]
+    args: ["echo 'WOW'"]
