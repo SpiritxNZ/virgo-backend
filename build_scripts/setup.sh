@@ -1,10 +1,7 @@
 #/usr/bin/env/bash
-echo "[${date}] Running setup script for Cloud Build"
-echo "[${date}] Current work directory is: ${pwd}"
-ls
+echo "[$(date)] Running setup script for Cloud Build"
+echo "[$(date)] Current work directory is: $(pwd)"
 # create directory for code
-mkdir app
-ls
-
-echo "[${date}] Head branch: $1"
-echo "[${date}] Base branch: $2"
+mkdir -p app
+cd app
+echo "[$(date)] Changed work directory to: $(pwd)"
