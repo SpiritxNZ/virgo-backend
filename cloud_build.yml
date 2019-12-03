@@ -1,0 +1,7 @@
+steps:
+  - name: "ubuntu"
+    entrypoint: "bash"
+    args: ["./build_scripts/setup.sh", "${_HEAD_BRANCH}", "${_BASE_BRANCH}"]
+  - name: "gcr.io/cloud-builders/git"
+    args: ["clone", "https://github.com/SpiritxNZ/virgo-backend.git"]
+    dir: "app"
