@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Virgo.Backend.Common\Virgo.Backend.Common.csproj" />
+    <ProjectReference Include="..\Virgo.Backend.Repository\Virgo.Backend.Repository.csproj" />
   </ItemGroup>
 
 </Project>

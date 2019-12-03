@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Virgo.Backend.Common.Repository.Model.Other
+namespace Virgo.Backend.Repository.Model.Other
 {
     public enum OrderStatus
     {

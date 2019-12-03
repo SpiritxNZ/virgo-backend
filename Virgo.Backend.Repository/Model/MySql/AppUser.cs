@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
-using Virgo.Backend.Common.Repository.Model.Other;
+﻿using System.ComponentModel.DataAnnotations;
+using Virgo.Backend.Repository.Model.Other;
 
-namespace Virgo.Backend.Common.Repository.Model.MySql
+namespace Virgo.Backend.Repository.Model.MySql
 {
     public class AppUser : BaseModel
     {
